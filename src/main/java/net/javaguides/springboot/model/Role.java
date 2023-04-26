@@ -19,7 +19,9 @@ public class Role {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String name;
-	
+	public void blah(){
+		System.out.println("Hello World");
+	}
 	public Role() {
 		
 	}
